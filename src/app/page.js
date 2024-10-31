@@ -1,95 +1,65 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { Flex, Text, Button } from '@mantine/core';
+import AudioControls from '../components/AudioControls';
+import FeaturesSection from '../components/FeaturesSection';
+import AudioConverter from '../components/AudioConverter';
+import ConverterComponent from '../components/ConverterComponent';
+import ComparisonPage from '../components/veedvscanva/comparsion';
+import OverviewComponent from '../components/veedvscanva/overview';
+import FeatureComparison from '../components/veedvscanva/features';
+import ImageCarousel from '../components/veedvscanva/testimonals';
+import { Dropdown } from '../icons/Dropdown';
+import { IconFilePlus} from '@tabler/icons-react';
+import ArchiveFormatSelector from '../components/ArchiveFormatSelector';
+import '@mantine/carousel/styles.css';
 
 export default function Home() {
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+  const headings={
+    title1:"canva",
+    title2:"veed"
+  }
+  return (
+    <>
+    <AudioConverter/>
+    <div style={{ padding: '20px',maxWidth: '70%',margin:'0 auto'}}>
+      {/* Select File Button */}
+      <Button fullWidth leftSection={<IconFilePlus/>} rightSection={<Dropdown/>} style={{backgroundColor: '#b53836',marginBottom: '30px',padding:'5px',color:'white',fontSize:'1.2em ',maxWidth:'20%',fontWeight:'normal',height:'3rem',marginLeft:'25rem'}}>
+        Select File
+      </Button>
+
+      {/* Options Section */}
+      {/* <Flex align="center" mb="md">
+        <Text component="a" weight={700} size="lg"  style={{fontWeight:'bolder',fontSize:'1em',color:'#5a5a5a'}}>
+          <span style={{ marginRight: '5px',color:'#5a5a5a'}}>🔧</span> OPTIONS
+        </Text>
+      </Flex> */}
+
+      {/* Audio Section */}
+      {/* <Flex align="center" mb="md">
+        <Text component="a" weight={600} size="lg"  style={{fontWeight:'bolder',fontSize:'1em',color:'#5a5a5a'}}>
+          <span style={{ marginRight: '10px',color:'#5a5a5a' }}>🔊</span> Audio
+        </Text>
+      </Flex> */}
+
+      {/* Audio Controls */}
+      {/* <AudioControls /> */}
+
+      {/* featuressection */}
+      <FeaturesSection/>
+
+      <ConverterComponent />
+
+      {/* <ArchiveFormatSelector/> */}
+
+      <ComparisonPage message={headings}/>
+      <OverviewComponent message={headings}/>
+      <FeatureComparison message={headings}/>
+
+      <Text style={{textAlign:'center',fontSize:'1.5em',fontWeight:'bolder',marginBottom:'20px'}}>Testimonals</Text>
+      <ImageCarousel message={headings}/>
+
     </div>
+    </>
+    
   );
 }

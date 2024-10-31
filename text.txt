@@ -1,0 +1,8 @@
+in page component:
+
+1. component with title and description changes dynamically according to routes.
+2. this second component appear when i click on the second button and its content also changes dynamically.
+
+
+how data changes:
+basically i have data json file and i match url parameters with data json file and get data from there and fill in the above components.

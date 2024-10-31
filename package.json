@@ -9,12 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.14"
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1",
+    "@mantine/carousel": "^7.13.2",
+    "@mantine/core": "^7.13.1",
+    "@mantine/hooks": "^7.13.1",
+    "@tabler/icons-react": "^3.18.0",
+    "json-server": "^1.0.0-beta.3",
+    "next": "14.2.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-video-js-player": "^1.1.1",
+    "saas": "^1.0.0",
+    "sass": "^1.79.5",
+    "video.js": "^8.18.1",
+    "wavesurfer.js": "^6.0.1"
   },
   "devDependencies": {
+    "@types/node": "22.7.4",
+    "@types/react": "18.3.11",
     "eslint": "^8",
-    "eslint-config-next": "14.2.14"
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8.4.47",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1"
   }
 }

@@ -1,0 +1,182 @@
+{
+  "MP3": {
+    "extension": ".mp3",
+    "category": "audio",
+    "body": "MP3 is a popular lossy audio format that offers good compression and sound quality balance, widely used for music and podcasts. It compresses audio files by removing parts of the sound that are less noticeable to human ears. This format is highly portable and compatible with almost all media players and devices. Due to its small file size, MP3 is ideal for online streaming and sharing music files."
+  },
+  "AAC": {
+    "extension": ".aac",
+    "category": "audio",
+    "body": "AAC (Advanced Audio Coding) is a lossy audio format that provides better sound quality than MP3 at similar bit rates, used in many streaming platforms. It's widely supported by modern devices and streaming services like YouTube and Apple Music. AAC's superior compression efficiency makes it a great choice for mobile devices where storage is limited. It supports multi-channel audio, making it suitable for advanced audio experiences."
+  },
+  "WAV": {
+    "extension": ".wav",
+    "category": "audio",
+    "body": "WAV is a lossless, uncompressed audio format developed by Microsoft and IBM, commonly used in professional audio recording and editing. WAV files retain the full audio spectrum, which is why they take up significantly more storage space. This format is favored in professional audio environments where high-quality sound is essential. WAV is also commonly used in video editing and archiving due to its high fidelity."
+  },
+  "WMA": {
+    "extension": ".wma",
+    "category": "audio",
+    "body": "WMA (Windows Media Audio) is a lossy audio format developed by Microsoft, aimed to compete with MP3, but less popular outside the Windows ecosystem. It offers a range of codecs, including lossy and lossless versions, to cater to different audio quality needs. While WMA was once a common format for Windows applications, it has become less favored due to the rise of more flexible and widely supported formats like MP3 and AAC. Its niche use is mostly within the Windows environment."
+  },
+  "OGG": {
+    "extension": ".ogg",
+    "category": "audio",
+    "body": "OGG is an open-source, lossy audio format often used with the Vorbis codec. It offers good sound quality and is commonly used in games and multimedia. The OGG format allows for flexible streaming, supporting metadata and multiple audio tracks. OGG is also popular in open-source software due to its free licensing, making it accessible for various platforms and applications."
+  },
+  "FLAC": {
+    "extension": ".flac",
+    "category": "audio",
+    "body": "FLAC (Free Lossless Audio Codec) is a lossless format that provides CD-quality audio with reduced file size, widely used by audiophiles and for archival purposes. Unlike lossy formats, FLAC preserves the original sound without degradation. It is commonly used for preserving high-quality audio in music collections or archiving. FLAC files are compressed efficiently, making them smaller than WAV files but still delivering identical audio quality."
+  },
+  "AIFF": {
+    "extension": ".aiff",
+    "category": "audio",
+    "body": "AIFF (Audio Interchange File Format) is a lossless, uncompressed audio format developed by Apple, commonly used in music production for high-quality audio. It stores sound data in a raw, uncompressed format, leading to large file sizes. AIFF is frequently used by professional musicians and audio engineers who require pristine audio quality. It's compatible with Mac OS and is similar in quality to WAV but preferred in the Apple ecosystem."
+  },
+  "M4A": {
+    "extension": ".m4a",
+    "category": "audio",
+    "body": "M4A is a container format commonly associated with AAC encoding. It is widely used by Apple for distributing audio, including music and podcasts. M4A files tend to offer better audio quality at smaller file sizes compared to MP3. This format is popular on iTunes and other Apple platforms due to its high efficiency and versatility. While M4A can store both lossless and lossy files, it’s often utilized for its superior compression."
+  },
+  "AC3": {
+    "extension": ".ac3",
+    "category": "audio",
+    "body": "AC3 (Audio Codec 3) is a lossy format used primarily in DVD and Blu-ray media, supporting surround sound audio encoding. It is commonly found in home theater systems, providing an immersive audio experience. AC3 supports up to six channels of audio, making it a key player in cinema and home entertainment. Despite being a lossy format, AC3 retains high-quality audio that enhances movie-watching experiences."
+  },
+  "DTS": {
+    "extension": ".dts",
+    "category": "audio",
+    "body": "DTS (Digital Theater Systems) is a lossy format used for surround sound in cinemas and home theaters, providing high-quality multi-channel audio. It delivers an immersive audio experience, often used in competition with Dolby Digital for cinematic releases. DTS audio tracks are common in Blu-ray and DVD releases, supporting up to eight channels. Though compressed, DTS strives to maintain sound quality and clarity, making it a popular choice for high-definition media."
+  },
+  "PCM": {
+    "extension": ".pcm",
+    "category": "audio",
+    "body": "PCM (Pulse Code Modulation) is a raw, uncompressed audio format often used in professional audio, delivering the highest possible quality. It is the standard format for audio CDs, ensuring no loss in sound quality. PCM data is stored in its original waveform, making it ideal for professional editing and mastering. While it produces large file sizes, PCM’s high fidelity is unmatched in many use cases like broadcasting and digital media."
+  },
+  "MP2": {
+    "extension": ".mp2",
+    "category": "audio",
+    "body": "MP2 (MPEG Layer II) is a lossy format used primarily for broadcast radio, offering strong error resilience for transmission over air. Though largely replaced by MP3 for personal use, MP2 remains popular in digital television and radio broadcasting. The format’s error correction capabilities make it suitable for unreliable transmission environments. MP2 is favored in industries where robustness is more important than extreme compression efficiency."
+  },
+  "TTA": {
+    "extension": ".tta",
+    "category": "audio",
+    "body": "TTA (True Audio) is a lossless audio codec providing high-quality sound with compression, commonly used for archival purposes. It offers perfect sound reproduction with reduced file size compared to uncompressed formats like WAV. TTA is open-source and allows for quick, real-time encoding and decoding. It’s ideal for audiophiles or situations where maintaining audio fidelity is crucial, such as backups or professional work."
+  },
+  "W64": {
+    "extension": ".w64",
+    "category": "audio",
+    "body": "W64 is an extension of the WAV format developed by Sony, designed to support larger file sizes and used in professional audio and video editing. The format was created to overcome the file size limitations of standard WAV files, which are capped at 4 GB. W64 files can handle high-resolution audio for longer recordings without losing quality. This format is often used in video post-production and multimedia projects requiring extensive audio editing."
+  },
+  "JPG": {
+    "extension": ".jpg",
+    "category": "image",
+    "body": "JPG is a widely used lossy image format that compresses image data to reduce file size, suitable for web and digital photography. It is ideal for sharing images online due to its smaller file sizes while still maintaining good visual quality. However, JPG compression can result in noticeable artifacts if used excessively. Despite its limitations, JPG remains one of the most popular formats for digital photos and web images due to its efficiency."
+  },
+  "JPEG": {
+    "extension": ".jpeg",
+    "category": "image",
+    "body": "JPEG is another extension for the same lossy image compression used in JPG, providing good quality while reducing file size. It’s commonly used in cameras and photo-sharing platforms for its balance between quality and storage space. JPEG is highly customizable, allowing users to adjust compression levels to suit their needs. However, it’s important to note that repeated saving in JPEG format can lead to quality degradation over time."
+  },
+  "PNG": {
+    "extension": ".png",
+    "category": "image",
+    "body": "PNG is a lossless image format that supports transparency, often used for web graphics and icons. Unlike JPG, PNG maintains all image data without compression artifacts, making it ideal for logos, screenshots, and high-quality web images. Its ability to handle transparent backgrounds is especially useful for design and web development. However, PNG files tend to be larger than JPGs, making them less suitable for images that need to load quickly online."
+  },
+  "BMP": {
+    "extension": ".bmp",
+    "category": "image",
+    "body": "BMP is an uncompressed raster image format developed by Microsoft, providing high-quality images but with large file sizes. Due to its uncompressed nature, BMP offers excellent image fidelity, making it suitable for printing and professional editing. However, the large file sizes make it less practical for web use or sharing. BMP is largely considered an outdated format, with most users favoring compressed alternatives for general-purpose use."
+  },
+  "TIFF": {
+    "extension": ".tiff",
+    "category": "image",
+    "body": "TIFF is a lossless image format used in professional photography and printing for high-quality image reproduction. It supports both lossless and lossy compression, allowing flexibility depending on the use case. TIFF files are often used in image editing software, where maintaining high image quality is critical. Due to its large file sizes, TIFF is more commonly used for printing or archival purposes than for online images."
+  },
+  "GIF": {
+    "extension": ".gif",
+    "category": "image",
+    "body": "GIF is a bitmap image format known for supporting animation, commonly used for short, looping animations and low-resolution graphics. It supports a limited color palette of 256 colors, which makes it less ideal for high-quality photos but perfect for simple web graphics and memes. GIF is lossless for images within its color range, but it sacrifices color depth for compression. The format is famous for its use in internet culture, especially for short, humorous clips."
+  },
+  "WEBP": {
+    "extension": ".webp",
+    "category": "image",
+    "body": "WEBP is a modern image format developed by Google, offering both lossy and lossless compression with smaller file sizes and good quality. It supports transparency (alpha channel) in both compression modes, making it a popular choice for web images. WEBP provides superior compression compared to formats like JPG and PNG, reducing load times for websites. It is widely used for online applications where optimizing speed and performance are crucial."
+  },
+  "PPM": {
+    "extension": ".ppm",
+    "category": "image",
+    "body": "PPM (Portable Pixmap) is a simple, uncompressed image format that stores image data in a plain text or binary form. It is primarily used in academic settings or image processing systems for teaching and experimentation due to its easy-to-read structure. The format lacks compression, resulting in large file sizes, but its simplicity makes it useful for debugging and testing algorithms. PPM is part of the Netpbm format family, including PGM and PBM."
+  },
+  "PGM": {
+    "extension": ".pgm",
+    "category": "image",
+    "body": "PGM (Portable Graymap) is a grayscale image format used in image processing, scientific applications, and academic environments. Like PPM, it can be stored in either plain text or binary, making it easy to manipulate for low-level image analysis. PGM images consist of pixel intensity values, typically ranging from black to white. It is part of the Netpbm family and is often used in conjunction with PPM and PBM formats for handling different types of image data."
+  },
+  "PBM": {
+    "extension": ".pbm",
+    "category": "image",
+    "body": "PBM (Portable Bitmap) is an uncompressed image format designed to store black-and-white (monochrome) images, used in simple image processing systems. Like PPM and PGM, PBM can be written in plain text or binary, and it serves as a basic format for images with only two colors. PBM’s simplicity makes it ideal for use in scientific research and teaching environments. It is part of the Netpbm suite and is often converted to other formats for more complex tasks."
+  },
+  "TGA": {
+    "extension": ".tga",
+    "category": "image",
+    "body": "TGA (TARGA) is a raster graphics format commonly used in video editing, 3D graphics, and game development. It supports both lossy and lossless compression, making it flexible for various use cases. TGA files can store high-quality images with alpha channels, which makes them ideal for textures, masks, and transparency in visual media. The format was popularized by the early PC graphics industry and is still in use for specialized applications in animation and video production."
+  },
+  "PCX": {
+    "extension": ".pcx",
+    "category": "image",
+    "body": "PCX is an older lossless image format developed by ZSoft for early computer applications, now largely obsolete but still supported by some legacy software. It was one of the first widely-used formats in the DOS operating system and supported various bit depths and resolutions. Although it has been replaced by more modern formats like PNG and BMP, PCX remains in use in specific scenarios where backward compatibility is required. Its RLE compression helped reduce file sizes at the time."
+  },
+  "XPM": {
+    "extension": ".xpm",
+    "category": "image",
+    "body": "XPM (X PixMap) is a raster image format used in the X Window System for storing icon images, supporting color and monochrome graphics. It is a simple format that stores images in an ASCII text file, making it easy to edit and read by humans and machines alike. XPM is often used for creating graphical elements in UNIX and Linux environments, especially for interface customization. Despite its simplicity, it can represent complex icons using a colormap."
+  },
+  "EXR": {
+    "extension": ".exr",
+    "category": "image",
+    "body": "EXR (OpenEXR) is a high-dynamic-range (HDR) image format developed by Industrial Light & Magic for use in visual effects and animation. It supports deep color images with greater precision than standard image formats, making it ideal for professional film production and 3D rendering. EXR can store multiple layers and channels, enabling advanced post-production workflows. It’s widely adopted in the VFX industry for its ability to handle complex lighting and shadow details."
+  },
+  "ICO": {
+    "extension": ".ico",
+    "category": "image",
+    "body": "ICO is an image format used for storing icons in Microsoft Windows operating systems, supporting multiple resolutions and color depths. It is commonly used to represent files, applications, or directories on Windows desktops. The format allows for embedding multiple sizes of the same icon, enabling scaling without loss of quality. ICO is essential for customizing user interfaces and is still widely used, despite newer formats like PNG being adopted for icon use."
+  },
+  "SGI": {
+    "extension": ".sgi",
+    "category": "image",
+    "body": "SGI is an image format developed by Silicon Graphics for use on their workstations, widely used in 3D graphics, digital image editing, and visual effects. SGI images are typically uncompressed, providing high-quality graphics for professional use, especially in industries like animation and scientific visualization. The format is optimized for use with SGI hardware and software, though it can be opened in various modern image editing tools. It remains a staple in specialized graphics workflows."
+  },
+  "XBM": {
+    "extension": ".xbm",
+    "category": "image",
+    "body": "XBM (X Bitmap) is a monochrome image format used primarily in the X Window System for simple icons, cursors, and graphical elements. The format stores image data as C source code, making it easy to include directly in software without additional image-loading libraries. XBM’s simplicity and direct integration with UNIX-like systems made it a popular choice for early graphical applications. Despite its age, XBM is still supported in many image viewing and editing tools."
+  },
+  "MP4": {
+    "extension": ".mp4",
+    "category": "video",
+    "body": "MP4 (MPEG-4 Part 14) is a versatile video container format that supports both video and audio streams, along with subtitles and metadata. It is widely used for online video streaming, video sharing platforms, and mobile devices due to its efficient compression. MP4 provides a good balance between file size and quality, making it ideal for high-definition content like movies, TV shows, and social media videos. Its widespread compatibility ensures playback on almost all modern devices."
+  },
+  "AVI": {
+    "extension": ".avi",
+    "category": "video",
+    "body": "AVI (Audio Video Interleave) is a multimedia container format developed by Microsoft, used for storing both video and audio streams. Although less efficient in compression compared to newer formats like MP4, AVI is still used in certain applications, particularly in Windows environments. AVI files tend to have larger file sizes, but the format supports high-quality video and audio, making it suitable for professional video editing and archiving. Its popularity has waned in favor of more advanced formats."
+  },
+  "MOV": {
+    "extension": ".mov",
+    "category": "video",
+    "body": "MOV is a video container format developed by Apple, often associated with the QuickTime player, used for high-quality video and audio playback. It supports multiple tracks, allowing video, audio, text, and effects to be stored in a single file. MOV files are frequently used in video production due to their flexibility and high-quality output. The format is especially popular in the Apple ecosystem, including iOS devices and Mac computers."
+  },
+  "MKV": {
+    "extension": ".mkv",
+    "category": "video",
+    "body": "MKV (Matroska) is an open-source video container format known for supporting multiple video, audio, and subtitle streams in one file, making it ideal for high-quality video content. It is commonly used for storing HD video, movies, and TV shows, offering a wide range of codec compatibility. MKV’s flexibility and ability to store vast amounts of data have made it popular for video encoding, particularly in media servers and online streaming. It’s favored for its high-definition support and robust file structure."
+  },
+  "FLV": {
+    "extension": ".flv",
+    "category": "video",
+    "body": "FLV (Flash Video) is a video format developed by Adobe, traditionally used for streaming video content over the internet, especially through Adobe Flash Player. Although FLV was once ubiquitous on video-sharing platforms, its usage has decreased with the decline of Flash and the rise of HTML5. Despite this, FLV is still supported in certain legacy systems and streaming applications. It remains a lightweight option for embedding video content on websites but is less common today due to security and compatibility concerns."
+  }
+}

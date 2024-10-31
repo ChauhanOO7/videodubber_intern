@@ -1,0 +1,66 @@
+.price {
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  }
+  
+  .carousel:hover {
+      .carouselControls {
+        opacity: 1;
+      }
+  }
+  
+  .carouselControls {
+    transition: opacity 150ms ease;
+    opacity: 0;
+  }
+  
+  .carouselIndicator {
+    width: rem(4px);
+    height: rem(4px);
+    transition: width 250ms ease;
+  
+    &[data-active] {
+      width: rem(16px);
+    }
+  }
+
+
+/* custom styles  */
+
+.carouselSlide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f9f9f9; /* Light background color for the slides */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carouselTextName {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333; /* Darker color for the name */
+}
+
+.carouselTextReview {
+  font-size: 1rem;
+  color: #666; /* Lighter color for the review text */
+  text-align: center; /* Center align the review text */
+  line-height: 1.4;
+}
+
+/* CarouselCard.module.css */
+.carouselIndicator {
+  background-color: #3498db; /* Change to your desired color */
+  width: 8px;
+  height: 8px;
+  border-radius: 50%; /* Make the indicators round */
+  transition: background-color 250ms ease; /* Smooth transition effect */
+}
+
+.carouselIndicator[data-active] {
+  background-color: #2ecc71; /* Active indicator color */
+  width: 16px; /* Make active indicator larger */
+}

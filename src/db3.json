@@ -1,0 +1,66 @@
+{
+    "canva":{
+        "rating":"Score 9.2 out of 10",
+        "mostusedby":"N/A",
+        "productsummary":"Canva is a popular, simple online graphic design tool. Users can import images, use templates to design banners and logos, or pay to use Canva's premium stock images/paid templates (elements starting at $1).",
+        "startingprice":"$12.95 per month",
+        "features":[
+            { "name": "Grammar and Style Checks", "product": true},
+            { "name": "SEO Optimization", "product": true},
+            { "name": "Plagiarism Check", "product": true},
+            { "name": "Collaboration Features", "product": true},
+            { "name": "Content Personalization", "product": true},
+            { "name": "Multilingual Support", "product": true},
+            { "name": "API Access", "product": true},
+            { "name": "Text Editing and Formatting", "product": true},
+            { "name": "Compliance and Security Measures", "product": true}
+        ],
+        "testimonals":[
+            {
+              "name":"Sarah L",
+              "review":"I never considered myself a designer, but Canva’s intuitive interface made creating professional-looking graphics a breeze. From social media posts to business presentations, Canva has become my go-to tool for everything visual."
+
+            },
+            {
+                "name":"Augastin K Lazar",
+                "review":"I would say that Canva is best suited for beginner and Novice level applications. If you are an experienced designer, there is definitely no point in using Canva as it is developed for designers entering the field. OR, if you want to experience that flexibility while you designing and let the creativity flow, You should not consider Canva as your Choice. If you feel like delivering quick and not spend your time on deciding on How to Design, then you should go for Canva."
+            },
+            {
+                "name":"Alex K",
+                "review":"Our team loves using Canva for its simplicity and ability to collaborate on designs in real-time. It has made our marketing efforts much more efficient and cohesive."
+            }
+          ]
+    },
+    "veed":{
+        "rating":"Score 5.8 out of 10",
+        "mostusedby":"Mid-Size Companies (51-1,000 employees)",
+        "productsummary":"VEED.IO aims to make professional video production simple. Its online video workflow tools allow teams to record, edit, review, and share video. VEED.IO has single-click features such as auto-subtitling, translations, transitions, custom branding, and more.",
+        "startingprice":"$10 per user",
+        "features":[
+            { "name": "Grammar and Style Checks", "product2": false },
+            { "name": "SEO Optimization", "product2": false },
+            { "name": "Plagiarism Check", "product2": false },
+            { "name": "Collaboration Features", "product2": false },
+            { "name": "Content Personalization", "product2": false },
+            { "name": "Multilingual Support","product2": true },
+            { "name": "API Access","product2": false },
+            { "name": "Text Editing and Formatting","produc2": true },
+            { "name": "Compliance and Security Measures","product2": false }
+        ],
+        "testimonals":[
+            {
+              "name":"Maria P",
+              "review":"VEED is a very simple and effective platform to create podcast videos and short video clips for social media marketing and educational purposes. If you only have audio files that you want to share on social media, you can transform these audio files into video files that can be shared on social media. You can embed the caption into the video and insert a progress bar which makes the video produced high quality and very user-friendly to consume. We use VEED to give a taster to our clients and we build a library of snackable videos."
+            },
+            {
+              "name":"David H",
+              "review":"Veed.io has become my favorite video editing platform. The interface is clean and easy to understand, but it still offers powerful features like subtitles, audio editing, and more. Perfect for creating quick content for my YouTube channel."
+            },
+            {
+              "name":"Richard G",
+              "review":"I was amazed at how feature-rich Veed.io is for its price. From trimming videos to adding effects and subtitles, it covers everything I need for video editing without the steep learning curve."
+
+            }
+        ]
+    }
+}

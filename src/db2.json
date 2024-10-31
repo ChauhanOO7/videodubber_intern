@@ -1,0 +1,114 @@
+{
+    "MP3": {
+      "related_formats": ["AAC", "WAV", "WMA", "OGG", "FLAC", "AIFF", "M4A", "AC3", "DTS", "PCM", "MP2", "TTA", "W64"]
+    },
+    "AAC": {
+      "related_formats": ["MP3", "WAV", "WMA", "OGG", "FLAC", "AIFF", "M4A", "AC3", "DTS", "PCM", "MP2", "TTA", "W64"]
+    },
+    "WAV": {
+      "related_formats": ["MP3", "AAC", "WMA", "OGG", "FLAC", "AIFF", "M4A", "AC3", "DTS", "PCM", "MP2", "TTA", "W64"]
+    },
+    "WMA": {
+      "related_formats": ["MP3", "AAC", "WAV", "OGG", "FLAC", "AIFF", "M4A", "AC3", "DTS", "PCM", "MP2", "TTA", "W64"]
+    },
+    "OGG": {
+      "related_formats": ["MP3", "AAC", "WAV", "WMA", "FLAC", "AIFF", "M4A", "AC3", "DTS", "PCM", "MP2", "TTA", "W64"]
+    },
+    "FLAC": {
+      "related_formats": ["MP3", "AAC", "WAV", "WMA", "OGG", "AIFF", "M4A", "AC3", "DTS", "PCM", "MP2", "TTA", "W64"]
+    },
+    "AIFF": {
+      "related_formats": ["MP3", "AAC", "WAV", "WMA", "OGG", "FLAC", "M4A", "AC3", "DTS", "PCM", "MP2", "TTA", "W64"]
+    },
+    "M4A": {
+      "related_formats": ["MP3", "AAC", "WAV", "WMA", "OGG", "FLAC", "AIFF", "AC3", "DTS", "PCM", "MP2", "TTA", "W64"]
+    },
+    "AC3": {
+      "related_formats": ["MP3", "AAC", "WAV", "WMA", "OGG", "FLAC", "AIFF", "M4A", "DTS", "PCM", "MP2", "TTA", "W64"]
+    },
+    "DTS": {
+      "related_formats": ["MP3", "AAC", "WAV", "WMA", "OGG", "FLAC", "AIFF", "M4A", "AC3", "PCM", "MP2", "TTA", "W64"]
+    },
+    "PCM": {
+      "related_formats": ["MP3", "AAC", "WAV", "WMA", "OGG", "FLAC", "AIFF", "M4A", "AC3", "DTS", "MP2", "TTA", "W64"]
+    },
+    "MP2": {
+      "related_formats": ["MP3", "AAC", "WAV", "WMA", "OGG", "FLAC", "AIFF", "M4A", "AC3", "DTS", "PCM", "TTA", "W64"]
+    },
+    "TTA": {
+      "related_formats": ["MP3", "AAC", "WAV", "WMA", "OGG", "FLAC", "AIFF", "M4A", "AC3", "DTS", "PCM", "MP2", "W64"]
+    },
+    "W64": {
+      "related_formats": ["MP3", "AAC", "WAV", "WMA", "OGG", "FLAC", "AIFF", "M4A", "AC3", "DTS", "PCM", "MP2", "TTA"]
+    },
+    "JPG": {
+      "related_formats": ["JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "JPEG": {
+      "related_formats": ["JPG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "PNG": {
+      "related_formats": ["JPG", "JPEG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "BMP": {
+      "related_formats": ["JPG", "JPEG", "PNG", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "TIFF": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "TIF": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "GIF": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "WEBP": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "PPM": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "PGM": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "PBM": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "TGA": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "PCX", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "PCX": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "XPM", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "XPM": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "EXR", "ICO", "SGI", "XBM"]
+    },
+    "EXR": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "ICO", "SGI", "XBM"]
+    },
+    "ICO": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "SGI", "XBM"]
+    },
+    "SGI": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "XBM"]
+    },
+    "XBM": {
+      "related_formats": ["JPG", "JPEG", "PNG", "BMP", "TIFF", "TIF", "GIF", "WEBP", "PPM", "PGM", "PBM", "TGA", "PCX", "XPM", "EXR", "ICO", "SGI"]
+    },
+    "MP4": {
+        "related_formats": ["AVI", "MOV", "MKV", "FLV"]
+    },
+    "AVI": {
+        "related_formats": ["MP4", "MOV", "MKV", "FLV"]
+    },
+    "MOV": {
+        "related_formats": ["MP4", "AVI", "MKV", "FLV"]
+    },
+    "MKV": {
+        "related_formats": ["MP4", "AVI", "MOV", "FLV"]
+    },
+    "FLV": {
+        "related_formats": ["MP4", "AVI", "MOV", "MKV"]
+    }
+  }
+  
